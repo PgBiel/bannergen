@@ -1,0 +1,13 @@
+{
+  "name": "banner-gen",
+  "version": "1.0.0",
+  "description": "ASCII banner generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ BannerGen --all --out=~/Documents/ElectronThing/banner-gen-build --overwrite --icon=~/Downloads/iee.jpg.icns"
+  },
+  "devDependencies": {
+  	"electron": "^1.4.0"
+  }
+}
